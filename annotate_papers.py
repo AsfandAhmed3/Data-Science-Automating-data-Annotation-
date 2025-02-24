@@ -1,8 +1,12 @@
 from google import genai
 import pandas as pd
 import time
+from dotenv import load_dotenv
+import os
 
-GEMINI_API_KEY = "AIzaSyC9-pO3MlbA5063BXgkaifKeYbuqsq4sSQ"
+load_dotenv()  
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 client = genai.Client(api_key=GEMINI_API_KEY)
 LABELS = ["Deep Learning", "Computer Vision", "Reinforcement Learning", "NLP", "Optimization"]
 

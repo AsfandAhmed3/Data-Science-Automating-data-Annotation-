@@ -1,0 +1,7 @@
+# Ignore the .env file which contains sensitive API keys
+.env
+
+# Virtual environments
+venv/
+ENV/
+env/
