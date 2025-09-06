@@ -1,4 +1,4 @@
-# 🤖 CleanData-Insights: Automating Research Paper Annotation with LLMs  
+# 🤖Automating Research Paper Annotation with LLMs  
 
 **`Leveraging Large Language Models for Smart Data Annotation`**  
 
